@@ -1,0 +1,98 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"> 
+<html>
+	<head>
+		<title>Robotics for Space eXploration</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+		<meta name="keywords" content="Robotics, Space, Exploration, Rover, Skule, Univeristy of Toronto, Competition, URC, Mars, Astronomy">	
+		<meta name = "author" content="Robotics for Space Exploration"/>
+		
+		<link rel="stylesheet" type="text/css" href="rsx-utoronto-wide.css" media = "all and (min-width:1100px)">	
+		<link rel="stylesheet" type="text/css" href="rsx-utoronto-narrow.css" media = "all and (orientation:landscape) and (max-width:900px)">	
+		<link rel="stylesheet" type="text/css" href="rsx-utoronto-narrow-portrait.css" media = "all and (orientation:landscape) and (max-width:1100px) and (min-width:900px)">	
+		<link rel="stylesheet" type="text/css" href="rsx-utoronto-narrow-portrait.css" media = "all and (orientation:portrait) and (max-width:1100px)">	
+				
+		<div id = "heading"> 
+			<img id = "logos" src = "./heading.png" alt = "RSX and U of T logo" title = "RSX and U of T logo"/>
+		</div>
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript">
+					
+			$(document).ready(function()	{
+			    
+				//navigation bars	
+							
+				$("#about, #events, #join, #contact, #mars-rover, #team").mouseenter( function () {
+					$(this).css("background-color", "#888"); 
+				})
+				$("#about, #events, #join, #contact, #mars-rover, #team").mouseleave( function () {
+					$(this).css("background-color", "#444"); 
+				})			
+				
+			});
+		</script>
+		<noscript>Your browser does not support JavaScript!</noscript> 
+	</head>
+	
+	<body>
+	<div id="body-container">
+		<div id="nav">
+			<table>
+				<tr>
+				<td id="home" style="cursor:pointer; background-color:#888;" onclick="window.location = './rsx-utoronto.html'" title = "RSX home page"> 
+					Home </td>
+				</tr>
+				
+				<tr>
+				<td id="about" style="cursor:pointer" onclick="window.location = './about-rsx.html'" title = "What is RSX?"> 
+					About Us </td>
+				</tr>
+
+				<tr>
+				<td id="mars-rover" style="cursor:pointer;" onclick="window.location = './rover-rsx.html'" title = "The history of our rover"> 
+					Our Mars Rover </td>
+				</tr>
+
+				<tr>
+				<td id="events" style="cursor:pointer" onclick="window.location = './events-rsx.html'" title = "Our latest news, events and meeting updates"> 
+					News and Events </td>
+				</tr>
+
+				<tr>
+				<td id="team" style="cursor:pointer" onclick="window.location = './team-rsx.html'" title = "Our team members and gallery"> 
+					Our Team </td> 
+				</tr>
+
+				<tr>
+				<td id="join" style="cursor:pointer" onclick="window.location = './join-rsx.html'" title = "Join RSX as a sub-team member or as an executive"> 
+					Join Us </td>
+				</tr>
+
+				<tr>
+				<td id="contact" style="cursor:pointer" onclick="window.location = './contact-rsx.html'" title = "Contact us"> 
+					Contact Us </td>
+				</tr>
+			</table>
+			<img id = "earth-sphere" src = "./earth-sphere.png" alt = "Earth image is currently unavailable" title = "Earth"/>
+			<img id = "moon-sphere" src = "./moon-sphere.png" alt = "Moon image is currently unavailable" title = ""/>
+			<img id = "space-station" src = "./space-station-icon.png" alt = "Space Station icon is currently unavailable" title = ""/>
+		</div>
+
+		<div class = "body-paragraphs">
+			<p>
+		Will we ever become a multi-planetary species?  Does the universe harbour other forms of life? What exactly is the universe, and how did it form? These questions - among countless others - have vexed humanity since its inception, and still do today. RSX believes that a fundamental means of finding answers to such questions is by physically conducting research experiments and exploring the vastness of space.   It is our mission to form a multidisciplinary team of engineers dedicated to the development and <img id = "mars-sphere" src = "./mars-sphere.png" alt="Mars image is currently unavailable" title = "Mars"/> implementation of innovative technology designed specifically for space exploration. 
+			</p>
+			<p>			
+		The hostility, unfamiliarity, and unknowns related to environments beyond the Earth&lsquo;s atmosphere pose significant challenges to engineers and scientists. With a rapidly growing aerospace and robotics industry coupled with increasingly accessible and affordable technology, the underpinning goal of RSX will be to provide all of its members with a comprehensive, practical, and concrete understanding of space exploration to meet these challenges. As space exploration is highly multidisciplinary, RSX will welcome engineers and scientists from diverse backgrounds, interests, and skill sets. As robots are paving the way for manned exploration, RSX&lsquo;s primary focus will be the design and implementation of robots optimized for planetary and lunar exploration.
+			</p>
+
+			<div id="copyright">Website copyright 2013 &copy; University of Toronto Robotics for Space Exploration Team <br> <br>
+			Contact: <a href="mailto:rsx.utoronto@gmail.com">mailto:rsx.utoronto@gmail.com</a>
+			</div>
+		</div>	
+		
+	</div>			
+	</body>
+</html>
