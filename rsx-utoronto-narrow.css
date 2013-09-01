@@ -69,8 +69,8 @@
 				font-size: 75%; 
 				color: #000;
 				line-height: 125%;
-				padding: 100px;
-				top: 100px;
+				top: 120%;
+				padding: 50px; 
 			}	
 
 			#mars-sphere {
@@ -82,22 +82,31 @@
 
 			#moon-sphere {
 				position: absolute;
-				top: 140%; 
+				top: 120%; 
 				left: 5%;
 				width: 20%;
 			}
 
 			#earth-sphere {
 				position: absolute;
-				top: 165%;
+				top: 140%;
 				width: 60%;
 				left: 35%;
 			}
 
 			#space-station {
 				position: absolute;
-				top: 150%;
+				top: 125%;
 				left: 85%; 
+				width: 20%; 
+			}
+
+			#home-paragraph {
+				position: relative;
+				width: 125%;
+				height: 125%; 
+				top: 0px;
+				left: 0%; 
 			}
 
 			#rover	{
