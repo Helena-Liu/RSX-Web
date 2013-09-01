@@ -63,6 +63,7 @@
 			#copyright { 
 				position: relative;
 				width: 700px;
+				top: 0px; 
 				padding: 100px; 
 				margin: 0px auto;
 				text-align: center;
@@ -76,6 +77,13 @@
 				float: right; 
 				margin: 5px; 
 				width: 450px; 
+			}
+
+			#home-paragraph {
+				position: relative;
+				width: 825px;
+				top: 0px;
+				left: -25px; 
 			}
 
 			#earth-sphere {
@@ -94,6 +102,7 @@
 			#space-station {
 				position: relative;
 				top: -15px;
+				width: 40px; 
 				left: 110px;
 			}
 
