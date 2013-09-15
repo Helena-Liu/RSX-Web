@@ -13,6 +13,34 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 		<script type="text/javascript">
+
+			function validateForm( )
+			{
+				// Validating name input field
+				var x = document.forms["contact-form"]["your_name"].value;
+				if (x==null || x=="") {
+  					alert("Name must be filled out");
+  					return false;
+  				}
+
+				// Validating your_email input field
+				x=document.forms["contact-form"]["your_email"].value;
+				atpos=x.indexOf("@");
+				var dotpos=x.lastIndexOf(".");
+				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+  					alert("Not a valid e-mail address input for your email");
+  					return false;
+  				}
+
+				// Validating receiver_email input field
+				x=document.forms["contact-form"]["receiver_email"].value;
+				atpos=x.indexOf("@");
+				dotpos=x.lastIndexOf(".");
+				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+  					alert("Not a valid e-mail address input for receiver's email");
+  					return false;
+  				}
+			}
 					
 			$(document).ready(function()	{
 				$(".menu-option").mouseenter( function () {
@@ -59,8 +87,40 @@
 					Strategy Team:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">strategy [at] rsx-utoronto.com</a><br/>
 					<br/>
 					External Relations:&nbsp&nbsp&nbsp<a class="link">external [at] rsx-utoronto.com</a><br/><br/>
-					Webmaster:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">webmaster [at] rsx-utoronto.com</a><br/>
+					Webmaster:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">webmaster [at] rsx-utoronto.com</a><br/>
+				
+					<form action="formmail.php" name="contact-form" id="contact-form" method="post" onsubmit="return validateForm();">
+						<input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
+                                		<input type="hidden" name="subject" value="RSX Contact Form" />
+
+                                		<div class="contact_wrap">
+							<hr>
+                                   			<p>
+                                        			<label for="your_name">Your Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+								<input type="text" name="your_name" id="your_name" class="input_bar" value="" />
+                                    			</p>
+                                    			<p>
+                                       	 			<label for="your_email">Your Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+								<input type="text" name="your_email" id="your_email" class="input_bar" value="" />
+                                    			</p>
+							<p>
+                                       	 			<label for="recipients">Receiver&lsquo;s Email:&nbsp&nbsp</label>
+                                        			<input type="text" name="recipients" id="receiver_email" class="input_bar" value="contact[at]rsx-utoronto.com" />
+                                    			</p>
+                                    			<p>
+                                        			<label for="your_message">Message: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+								<br>
+                                        			<textarea name="your_message" class="required" id="your_message"></textarea>
+                                    			</p>
+                                    			<p>
+                                        			<input id="submit_msg" type="submit" value = "Submit" />
+                                    			</p>
+                                		</div>
+                            		</form>
+
+					<?php echo "Thank you ".$_POST["name"]." for your input"; ?>
 				</div>
+				
 			</div>
 		
 		</div>			
