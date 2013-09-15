@@ -1,0 +1,102 @@
+
+			@font-face {
+				font-family: 'Myriad-B';
+				src: url('MYRIADPRO-BOLD.OTF');
+			}
+
+			@font-face {
+				font-family: 'Myriad';
+				src: url('MYRIADPRO-REGULAR.OTF');
+			}	
+
+			@font-face {
+				font-family: 'Myriad-SB';
+				src: url('MYRIADPRO-SEMIBOLD.OTF');
+			}
+												
+			body {
+				background-color: white;
+				width: 960px;
+				height: 640px;
+				margin: auto;
+			}	
+			
+			a {
+				color: #0060B6;
+				text-decoration: none;
+			}
+			
+			.link {
+				color: #006680;
+			}
+			
+			#header-area {
+				width: 100%;
+				height: 20.5%;
+				background-color: #F9F9F9;
+				margin: auto;
+				margin-top: 0.5%;
+			}
+			
+			#header-logo {
+				width: 95%;
+				margin: 2% 2.5% 0% 2.5%;
+				cursor: pointer;
+			}
+			
+			
+			#page-content {
+				width: 100%;
+				height: 80%;
+				background-color: #F0F0F0;		
+				overflow: hidden;		
+			}	
+			
+			#left-side {
+				float: left;
+				width: 22%;
+			}
+			
+			#right-side {
+				float: left;
+				width: 78%;
+				overflow: hidden;
+			}
+			
+			#nav-menu {
+				margin: 28% 0% 0% 10%;
+			}
+			
+			.menu-option {
+				background-color: #5A5A5A;
+				color: white;
+				font-family: 'Myriad-B';
+				line-height: 28px;;
+				font-size: 16px;
+				margin-bottom: 4px;
+				border-radius: 3px;
+				width: 80%;
+				padding-left: 10px;
+				cursor: pointer;
+			}			
+			
+			#left-side-bottom-image {
+				width: 80%;
+				margin: 55% 0% 0% 8%;
+			}
+			
+			#right-side-image {
+				width: 100%;
+				margin: 8% 0% 0% 2.5%;
+			}
+			
+			.right-general-text	{
+				font-family: 'Myriad-SB';
+				font-size: 12.5px;
+				line-height: 15px;
+				color: #474747;
+				width: 92%;
+				letter-spacing: 0.5px;
+				margin: 7.5% 0% 0% 2%;
+			}
+

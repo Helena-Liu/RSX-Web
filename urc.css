@@ -1,0 +1,27 @@
+#urc-text {
+	width: 62%;
+	float: left;
+	padding-right: 5%;
+}
+
+#urc-images-container {
+	width: 25.5%;
+	float: left;
+	padding-top: 7.5%;
+}
+
+.urc-image {
+	width: 100%;
+	margin: 0px 0px 5% 2.5%;
+	border-radius: 5px;
+}
+
+#more-info-text {
+	font-family: 'Myriad-B';
+	font-size: 17px;
+	line-height: 20px;
+	color: #1F1F1F;
+	letter-spacing: 0.25px;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+}

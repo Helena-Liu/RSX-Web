@@ -1,0 +1,74 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"> 
+<html>
+	<head>
+		<title>Robotics for Space Exploration</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+		<meta name="keywords" content="Robotics, Space, Exploration, Rover, Skule, Univeristy of Toronto, Competition, URC, Mars, Astronomy">	
+		<meta name = "author" content="Robotics for Space Exploration"/>
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="urc.css">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript">
+					
+			$(document).ready(function()	{
+				$(".menu-option").mouseenter( function () {
+					$("#" + this.id).css("opacity", "0.75"); 
+				})
+				$(".menu-option").mouseleave( function () {
+					$("#" + this.id).css("opacity", "1.0"); 
+				})			
+				
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="header-area">
+			<a href="index.html"><img id="header-logo" src="http://farm6.staticflickr.com/5451/9652412154_6c97a0643d_o.png"/></a>
+		</div>
+		
+		<div id="page-content">
+		
+			<div id="left-side">
+				<div id="nav-menu">
+					<a href="index.html"><div class="menu-option" id="menu-home">Home</div></a>
+					<a href="about.html"><div class="menu-option" id="menu-about-us">About Us</div></a>
+					<a href="urc.html"><div class="menu-option" id="menu-urc">URC</div></a>
+					<a href="team.html"><div class="menu-option" id="menu-team">Meet the Team</div></a>
+					<a href="contact.html"><div class="menu-option" id="menu-contact-us">Contact Us</div></a>
+				</div>
+				
+				<div id="left-side-bottom-image-container">
+					<img id="left-side-bottom-image" src="http://farm4.staticflickr.com/3781/9645090001_d0df987d0a_o.png"/>
+				</div>
+			</div>
+			
+			<div id="right-side">
+				<div class="right-general-text" id="urc-text">
+					The international <a class="link" href="https://sites.google.com/a/marssociety.org/urc/">University Rover Challenge</a> (URC) is RSX's first mission. The aim of the URC is to design and build the next generation of Mars rovers that will one day work alongside human explorers in the field.
+					The competition takes place at the Mars Desert Research Station in Hanksville, Utah, and is organized by the <a class="link" href="http://www.marssociety.org/">Mars Society</a>.
+					Teams from several countries design and build rovers to compete in 5 tasks, reflective of what may be required of a rover on a real Martian expedition.
+					<br/><br/>
+					1. Sample Return Task: <br/>Teams need to select multiple sites of biological interest within a 0.5km radius of their base, and collect and return sub-surface samples.<br/><br/>
+					2. Astronaut Assistance Task: <br/>Given approximate GPS coordinates, teams will be required to deliver multiple supply containers to simulated astronauts in the field as quickly as possible.<br/><br/>
+					3. Equipment Servicing Task: <br/>The rover must perform tasks such as measuring voltage across exposed terminals, cleaning a solar panel, reading meters, pushing buttons & flipping switches.<br/><br/>
+					4. Terrain Traversing Task: <br/>Rovers will be required to traverse a variety of difficult terrains as part of an engineering field test of the ruggedness and route-finding ability of the rovers.<br/><br/>
+					5. Presentation Task: <br/>Teams will prepare and deliver a presentation to the URC judges describing their team, rover design and functionality.
+				</div>
+				
+				<div id="urc-images-container">
+					<img class="urc-image" id="mdrs-image" src="http://farm3.staticflickr.com/2863/9657088212_4bc25df400_o.png"/>
+					<img class="urc-image" id="rover-image" src="http://farm4.staticflickr.com/3707/9653853049_ab27fd980c_o.png"/>
+					<div id="more-info-text">
+						<a href="http://urc.marssociety.org/files/UniversityRoverChallengeRules2013.pdf">Click here for the complete Rules & Guidelines for the URC.</a>
+					</div>
+				</div>
+			</div>
+		
+		</div>			
+	</body>
+</html>
