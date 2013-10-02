@@ -1,0 +1,17 @@
+#about-text {
+	width: 60%;
+	float: left;
+}
+
+#image-container {
+	width: 30%;
+	margin-left: 4%;
+	float: left;
+	margin-top: 60px;
+}
+
+#image-1, #image-2 {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}

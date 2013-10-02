@@ -8,7 +8,7 @@
 		<meta name = "author" content="Robotics for Space Exploration"/>
 
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="about.css">
+		<link rel="stylesheet" type="text/css" href="team.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -49,20 +49,14 @@
 			</div>
 			
 			<div id="right-side">
-				<div class="right-general-text" id="about-text">
-					Robotics for Space Exploration (RSX) was co-founded in May of 2013 by Rahul Goel and Karim Koreitem, both passionate roboticists, space enthusiasts, and undergraduate engineering students.
-					<br/><br/>
-					The recent explosion in interest in space exploration is what triggered the formation of RSX. With organizations working on Mars-bound spacecraft, teams around the world racing to win the Google Lunar X Prize, undergraduate students launching nano-satellites, and companies aspiring to mine asteroids, the increasing number of space ventures are truly initiating a shift in the age-old paradigm that only a limited number of highly specialized organizations can partake in space exploration.
-					<br/><br/>
-					Needless to say, space exploration is unbelievably exciting and challenging. The goal of RSX is to ensure its members gain a better understanding of the practical side of space engineering. By designing, building, and testing robots designed for planetary and lunar exploration, RSX will compete in space engineering competitions around the world. At heart, our true passion is manned space exploration. Our overarching vision will always be for robots to work with humans, not instead of them, and pave the way for manned exploration.
-					<br/><br/>
-					The University of Toronto has a long and successful history in aerospace engineering, and RSX is supported by the world renowned University of Toronto Institute for Aerospace Studies (UTIAS). Professor Tim Barfoot is our advisor and mentor, and RSX will be using the Mars Dome as its main test facility.
-					<br/><br/>
-					For us, the sky is not the limit - it's just in the way. Please join us on this stellar adventure!
+				<div id="main-team-box">
+					<a href="http://williamye.smugmug.com/Portraits/09302013-RSX-Group-Photo/i-LBkrKST/0/XL/DSC07521-XL.jpg"><img id="team-img" src="http://williamye.smugmug.com/Portraits/09302013-RSX-Group-Photo/i-LBkrKST/0/XL/DSC07521-XL.jpg" /></a>
+					<div id="photo-cl"><a id="pl-anchor">Photo courtesy of William Ye, RSX Photographer</a></div>
+					<div id="exec-link"><a href="execs.html"><br/><br/>Click here to meet the executive team!</a></div>
 				</div>
-				
-				<div id="footprint-img-container">
-					<img id="footprint-img" src="http://farm4.staticflickr.com/3799/9653581513_ceee426e61_o.png"/>
+				<div id="team-info-box">
+					We are a young team of undergraduate students, united by our passion for space exploration and robotics. We are growing quickly, and already have over 40 members working very hard towards the same goal. The team is comprised of aerospace,
+					electrical, mechanical, energy and infrastructure engineering students, as well as bio technology and commerce students. We are confident in our abilities, and despite being a new team, we are certain that we will succeed.	
 				</div>
 			</div>
 		

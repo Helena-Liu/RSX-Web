@@ -8,7 +8,7 @@
 		<meta name = "author" content="Robotics for Space Exploration"/>
 
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="about.css">
+		<link rel="stylesheet" type="text/css" href="utias.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -50,20 +50,16 @@
 			
 			<div id="right-side">
 				<div class="right-general-text" id="about-text">
-					Robotics for Space Exploration (RSX) was co-founded in May of 2013 by Rahul Goel and Karim Koreitem, both passionate roboticists, space enthusiasts, and undergraduate engineering students.
-					<br/><br/>
-					The recent explosion in interest in space exploration is what triggered the formation of RSX. With organizations working on Mars-bound spacecraft, teams around the world racing to win the Google Lunar X Prize, undergraduate students launching nano-satellites, and companies aspiring to mine asteroids, the increasing number of space ventures are truly initiating a shift in the age-old paradigm that only a limited number of highly specialized organizations can partake in space exploration.
-					<br/><br/>
-					Needless to say, space exploration is unbelievably exciting and challenging. The goal of RSX is to ensure its members gain a better understanding of the practical side of space engineering. By designing, building, and testing robots designed for planetary and lunar exploration, RSX will compete in space engineering competitions around the world. At heart, our true passion is manned space exploration. Our overarching vision will always be for robots to work with humans, not instead of them, and pave the way for manned exploration.
-					<br/><br/>
-					The University of Toronto has a long and successful history in aerospace engineering, and RSX is supported by the world renowned University of Toronto Institute for Aerospace Studies (UTIAS). Professor Tim Barfoot is our advisor and mentor, and RSX will be using the Mars Dome as its main test facility.
-					<br/><br/>
-					For us, the sky is not the limit - it's just in the way. Please join us on this stellar adventure!
+UTIAS (University of Toronto Institute for Aerospace Studies) is a graduate studies and research institute, forming part of the Faculty of Applied Science and Engineering at the University of Toronto. The continuing involvement of the University of Toronto in the aerospace sciences since World War I eventually led to the establishment of this institute in 1949. 
+<br/><br/>
+Originally called the Institute of Aerophysics, it is now known as the Institute for Aerospace Studies. In 1959, UTIAS moved to a permanent 7.6 ha site about 22 km north of the main campus. Extensions to the original building were added in 1961, 1963, 1987 and 1989. A dome-shaped building housing an air-cushion vehicle track was erected adjacent to the main building in 1973, and the Microsatellite Science and Technology Centre was added in 2012. The dome, now called the Mars Dome, has been repurposed as an indoor facility to test rovers in a Mars-like environment. RSX will be taking advantage of this facility, among countless others at UTIAS.
+<br/><br/>
+Professor Tim Barfoot, RSX's faculty advisor, is an associate professor and Canada Research Chair (Tier II) in Autonomous Space Robotics. 'The purpose of his research program is to enable scientific exploration by creating advanced autonomy for space robotics. Currently, planetary exploration is the primary focus of his work. He is particularly interested in aspects of estimation and control for planetary rovers. He believe strongly that techniques should be proven through realistic field trials.'
+<br/><br/>
+<a href="http://www.utias.utoronto.ca/">University of Toronto Institute for Aerospace Studies</a><br/><br/>
+<a href="http://asrl.utias.utoronto.ca/~tdb/">Professor Barfoot</a>
 				</div>
 				
-				<div id="footprint-img-container">
-					<img id="footprint-img" src="http://farm4.staticflickr.com/3799/9653581513_ceee426e61_o.png"/>
-				</div>
 			</div>
 		
 		</div>			

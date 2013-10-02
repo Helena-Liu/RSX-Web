@@ -8,7 +8,6 @@
 		<meta name = "author" content="Robotics for Space Exploration"/>
 
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="team.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -43,20 +42,15 @@
 					<a href="contact.html"><div class="menu-option" id="menu-contact-us">Contact Us</div></a>
 				</div>
 				
-				<div id="left-side-bottom-image-container">
-					<img id="left-side-bottom-image" src="http://farm4.staticflickr.com/3781/9645090001_d0df987d0a_o.png"/>
+				<div id="image-container">
+					<img id="image-1" src="http://asrl.utias.utoronto.ca/~tdb/figs/tdb_lelr.jpg" />
+					<img id="image-2" src="http://www.utias-sfl.net/Images/launch.jpg" />
 				</div>
 			</div>
 			
 			<div id="right-side">
-				<div id="main-team-box">
-					<a href="execs.html"><img id="team-img" src="http://williamye.smugmug.com/Portraits/09302013-RSX-Group-Photo/i-LBkrKST/0/XL/DSC07521-XL.jpg" /></a>
-					<div id="photo-cl"><a id="pl-anchor">Photo courtesy of William Ye, RSX Photographer</a></div>
-					<div id="exec-link"><a href="execs.html"><br/><br/>Click here to meet the executive team!</a></div>
-				</div>
-				<div id="team-info-box">
-					We are a young team of undergraduate students, united by our passion for space exploration and robotics. We are growing quickly, and already have over 40 members working very hard towards the same goal. The team is comprised of aerospace,
-					electrical, mechanical, energy and infrastructure engineering students, as well as bio technology and commerce students. We are confident in our abilities, and despite being a new team, we are certain that we will succeed.	
+				<div id="right-side-image-container">
+					<img id="right-side-image" src="http://farm4.staticflickr.com/3666/9652201876_3aec1fea97_o.png"/>
 				</div>
 			</div>
 		
