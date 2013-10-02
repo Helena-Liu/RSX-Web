@@ -39,6 +39,7 @@
 					<a href="about.html"><div class="menu-option" id="menu-about-us">About Us</div></a>
 					<a href="urc.html"><div class="menu-option" id="menu-urc">URC</div></a>
 					<a href="team.html"><div class="menu-option" id="menu-team">Meet the Team</div></a>
+					<a href="utias.html"><div class="menu-option" id="menu-utias">UTIAS</div></a>
 					<a href="contact.html"><div class="menu-option" id="menu-contact-us">Contact Us</div></a>
 				</div>
 				
@@ -79,9 +80,9 @@
 						<div class="member-description-box">
 							<div class="member-name">Bryan Tarras, Mission Strategist</div>
 							<div class="member-bio">
-								Bryan is a Mechanical Engineering student (1T5), who has been fascinated about space and engineering since first laying eyes on the Canadarm as a child. 
-								This fascination led him to pursue engineering and ultimately join RSX. Often finding himself actively researching aspects of space engineering, 
-								Bryan serves as Mission Strategist to further develop his understanding of space engineering and use this to better all mankind.
+								Bryan is a Mechanical Engineering student (1T5), who has been fascinated by space and engineering since first laying eyes on the Canadarm as a child. 
+								This fascination led him to pursue engineering and ultimately RSX. Often finding himself actively researching aspects of space systems design, 
+								Bryan serves as Mission Strategist to further develop his understanding of space engineering and apply his experiences to better all of mankind.
 							</div>
 						</div>
 					</div>
@@ -124,8 +125,8 @@
 						<div class="member-description-box">
 							<div class="member-name">Kiah Bransch, Science Team Co-Lead</div>
 							<div class="member-bio">
-								Kiah is Biotechnology student (1T5), has had an interest in robots and technology of all kinds for many years. Her high school involvement with Science Olympiad sparked her
-								curiosity about astronomy and the pursuit of life elsewhere in the Universe. Her ultimate goal is to design and create neuro-integrated prosthetics, and to help people have better life qualities.
+								Kiah is a Biotechnology student (1T5), and has had an interest in robots and technology of all kinds for many years. Her high school involvement with the Science Olympiad sparked her
+								curiosity for astronomy and the pursuit of life elsewhere in the Universe. Her ultimate goal is to design and create neuro-integrated prosthetics, and to improve the quality of life for all people.
 							</div>
 						</div>
 					</div>		
@@ -135,8 +136,8 @@
 						<div class="member-description-box">
 							<div class="member-name">He He, Operations Director</div>
 							<div class="member-bio">
-								He is a 3rd year Engineering Science (Infrastructure) student, and currently the external relations director of RSX. He is fascinated by endlessness of space and its possibilities (colonies, extra-terrestrial life etc). 
-								As part of the Administrative team, He hopes to practice his soft engineering skills that are applicable in a future career in infrastructure industry.	
+								He is a 3rd year Engineering Science (Infrastructure) student, and currently the operations director of RSX. He is fascinated by the endlessness of space and its possibilities (colonies, extra-terrestrial life, etc). 
+								As part of the Administrative Team, He hopes to practice his soft engineering skills that are applicable in a future career in the infrastructure industry.	
 							</div>
 						</div>
 					</div>					
@@ -155,7 +156,7 @@
 					<div class="member-box">
 						<div class="member-img-box"><img class="member-img" src="images/members/abdul.jpg" /></div>
 						<div class="member-description-box">
-							<div class="member-name">Abdul Tamim, Finace Co-Director</div>
+							<div class="member-name">Abdul Tamim, Finance Co-Director</div>
 							<div class="member-bio">
 								Abdul Razzak is an accounting student in the Rotman Commerce Program and has a life long interest in the field of Astronomy and Space Exploration. He is part of RSX due to his interests being in line with those of the club, 
 								furthermore; the opportunity allows him to gain practical experience in his field of study. Abdul Razzak's future goal is to become a CA/CPA.
@@ -166,7 +167,7 @@
 					<div class="member-box">
 						<div class="member-img-box"><img class="member-img" src="images/members/jad.jpg" /></div>
 						<div class="member-description-box">
-							<div class="member-name">Jad Jarkass, Finace Co-Director</div>
+							<div class="member-name">Jad Jarkass, Finance Co-Director</div>
 							<div class="member-bio">
 								Jad is a Rotman Commerce accounting student. He has a passion  for  the sciences, especially astronomy and astrophysics. He joined RSX because he saw an opportunity to work in a field he is passionate about. 
 								Jad is extremely excited to be part of a talented team that will aim to explore a world beyond our planet.
@@ -179,8 +180,8 @@
 						<div class="member-description-box">
 							<div class="member-name">William Ye, Photographer & Media Director</div>
 							<div class="member-bio">
-								William Ye is an Engineering Science 1T4 student. He specializes in infrastructure engineering. Outside curriculum, he has five year experience in documentary photography, 
-								two and a half years experience in studio portrait photography and one year experience in commercial product photography, as of September 2013.
+								William Ye is an Engineering Science 1T4 student. He specializes in infrastructure engineering. Outside school, he has gathered five years of experience in documentary photography, 
+								two and a half years of experience in studio portrait photography and one year of experience in commercial product photography - as of September 2013.
 							</div>
 						</div>
 					</div>	
