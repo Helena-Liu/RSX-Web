@@ -1,4 +1,4 @@
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"> 
 <html>
 	<head>
 		<title>Robotics for Space Exploration</title>
@@ -59,7 +59,12 @@ Professor Tim Barfoot, RSX's faculty advisor, is an associate professor and Cana
 <a href="http://www.utias.utoronto.ca/">University of Toronto Institute for Aerospace Studies</a><br/><br/>
 <a href="http://asrl.utias.utoronto.ca/~tdb/">Professor Barfoot</a>
 				</div>
-				
+
+				<div id="image-container">
+					<img id="image-1" src="http://asrl.utias.utoronto.ca/~tdb/figs/tdb_lelr.jpg" />
+					<img id="image-2" src="http://www.utias-sfl.net/Images/launch.jpg" />
+				</div>
+								
 			</div>
 		
 		</div>			

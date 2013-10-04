@@ -1,0 +1,26 @@
+#your_message	{
+	width: 45%;
+	height: 80px;
+	position: relative;
+	top: 0px;
+}
+
+#contact_wrap {
+	display: block;
+}
+
+.input_bar {
+	width: 200px;
+}
+
+body {
+	background-color: white;
+	width: 960px;
+	height: 640px;
+	margin: auto;
+}
+
+table, th, td
+{
+border: 1px;
+}
