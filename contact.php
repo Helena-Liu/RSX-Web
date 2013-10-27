@@ -144,10 +144,10 @@
 						$from = $_POST["your_email"];
 						$headers = "RSX-Web Messages";
 						if (mail($to,$subject,$message,$headers)) {
-							echo "Thank you ".$_POST["name"]." for your input. We are happy to get back to you ASAP!";
+							echo "Thank you ".$_POST["name"]." for your input. We'll be in touch soon.";
 						}
 						else {
-							echo "Oops! Message failure. Please kindly email us your message. Sorry for the inconvenience";
+							echo "Oops! Something went wrong. Please email us directly at contact@rsx-utoronto.com";
 						}
 					?>
 				</div>
