@@ -40,9 +40,14 @@
 			}
 			
 			.header-logo {
+				border: 0;
 				width: 95%;
 				margin: 2% 2.5% 0% 2.5%;
 				cursor: pointer;
+			}
+
+			#canada {
+				border: 0;
 			}
 			
 			
