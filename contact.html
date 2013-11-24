@@ -4,43 +4,16 @@
 		<title>Robotics for Space Exploration</title>
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+		<meta name="msvalidate.01" content="E1A331A875F37DCCCDD1D9E637252E5F" />
 		<meta name="keywords" content="Robotics, Space, Exploration, Rover, Skule, Univeristy of Toronto, Competition, URC, Mars, Astronomy">	
 		<meta name = "author" content="Robotics for Space Exploration"/>
 
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="contact.css">
+		<link rel="stylesheet" type="text/css" href="sponsors.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 		<script type="text/javascript">
-
-			function validateForm( )
-			{
-				// Validating name input field
-				var x = document.forms["contact-form"]["your_name"].value;
-				if (x==null || x=="") {
-  					alert("Name must be filled out");
-  					return false;
-  				}
-
-				// Validating your_email input field
-				x=document.forms["contact-form"]["your_email"].value;
-				atpos=x.indexOf("@");
-				var dotpos=x.lastIndexOf(".");
-				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-  					alert("Not a valid e-mail address input for your email");
-  					return false;
-  				}
-
-				// Validating receiver_email input field
-				x=document.forms["contact-form"]["receiver_email"].value;
-				atpos=x.indexOf("@");
-				dotpos=x.lastIndexOf(".");
-				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-  					alert("Not a valid e-mail address input for receiver's email");
-  					return false;
-  				}
-			}
 					
 			$(document).ready(function()	{
 				$(".menu-option").mouseenter( function () {
@@ -80,7 +53,7 @@
 		</div>
 		
 		<div id="page-content">
-		
+                
 			<div id="left-side">
 				<div id="nav-menu">
 					<a href="index.html"><div class="menu-option" id="menu-home">Home</div></a>
@@ -96,81 +69,23 @@
 					<img id="left-side-bottom-image" src="http://farm4.staticflickr.com/3781/9645090001_d0df987d0a_o.png"/>
 				</div>
 			</div>
-			
-			<div id="right-side">
-				<div class="right-general-text" id="contact-text">
-					Whether you are a student wanting to join, a potential sponsor, or martian, we'd love to hear from you!
-					<br/><br/>
-					
-					<!--
-					General contact (cc this address, if possible): <a class="link">contact [at] rsx-utoronto.com</a>
-					<br/><br/>
-					<table> 
-						<tr>
-							<td> General Contact </td>
-							<td> <a class="link">contact [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> Mechanical Team </td>
-							<td> <a class="link">mech [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> Electrical Team </td>
-							<td> <a class="link">electrical [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> Embedded Team </td>
-							<td> <a class="link">embedded [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> Strategy Team </td>
-							<td> <a class="link">strategy [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> External Relations </td>
-							<td> <a class="link">strategy [at] rsx-utoronto.com</a> </td>
-						</tr>
-						<tr>
-							<td> Webmaster </td>
-							<td> <a class="link">webmaster [at] rsx-utoronto.com</a> </td>
-						</tr>
-					</table>
-					-->
-					
-					<form action="contact.php" name="contact-form" id="contact-form" method="post" onsubmit="return validateForm();">
-						<input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
-                                		<input type="hidden" name="subject" value="RSX Contact Form" />
-
-                                		<div class="contact_wrap">
-							<hr>
-                                   			<p>
-                                        			<label for="your_name">Your Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
-								<input type="text" name="your_name" id="your_name" class="input_bar" value="" />
-                                    			</p>
-                                    			<p>
-                                       	 			<label for="your_email">Your Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
-								<input type="text" name="your_email" id="your_email" class="input_bar" value="" />
-                                    			</p>
-							<p hidden>
-                                       	 			<label for="recipients">Receiver&lsquo;s Email:&nbsp&nbsp</label>
-                                        			<input type="text" name="recipients" id="receiver_email" class="input_bar" value="contact@rsx-utoronto.com" />
-                                    			</p>
-                                    			<p>
-                                        			<label for="your_message">Message: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-								<br>
-                                        			<textarea name="your_message" class="required" id="your_message"></textarea>
-                                    			</p>
-                                    			<p>
-                                        			<input id="submit_msg" type="submit" value = "Submit" />
-                                    			</p>
-                                		</div>
-                            		</form>
-
-					<?php echo "Thank you ".$_POST["name"]." for your input"; ?>
-				</div>
-				
-			</div>
-		
-		</div>			
-	</body>
+                        
+                        <div id="right-side">
+                                <div class="right-general-text" id="contact-text">
+                                        Whether you are a student wanting to join, a potential sponsor, or martian, we'd love to hear from you!
+                                        <br/><br/>
+                                        General contact (cc this address, if possible): <a class="link">contact [at] rsx-utoronto.com</a>
+                                        <br/><br/>
+                                        Mechanical Team:&nbsp&nbsp&nbsp&nbsp <a class="link">mech [at] rsx-utoronto.com</a><br/>
+                                        Electrical Team:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">electrical [at] rsx-utoronto.com</a><br/>
+                                        Embedded Team:&nbsp&nbsp&nbsp&nbsp <a class="link">embedded [at] rsx-utoronto.com</a><br/>
+                                        Strategy Team:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">strategy [at] rsx-utoronto.com</a><br/>
+                                        <br/>
+                                        External Relations:&nbsp&nbsp&nbsp<a class="link">external [at] rsx-utoronto.com</a><br/><br/>
+                                        Webmaster:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="link">webmaster [at] rsx-utoronto.com</a><br/>
+                                </div>
+                        </div>
+                
+                </div>                        
+        </body>
 </html>
