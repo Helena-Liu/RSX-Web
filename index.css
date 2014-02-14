@@ -105,5 +105,6 @@
 				width: 92%;
 				letter-spacing: 0.5px;
 				margin: 7.5% 0% 0% 2%;
+				overflow: auto;
 			}
 
